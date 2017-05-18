@@ -25,7 +25,7 @@ describe("Testing actions", () =>
             store.dispatch({type: "MY_ACTION"});
             const dispatched = log(store.getState());
             const state = noLog(store.getState());
-            expect(dispatched).toEqual({type: "MY_ACTION"});
+            expect(dispatched).toContainEqual({type: "MY_ACTION"});
             expect(state).toEqual(reducer.INITIAL_STATE);
         }
     );
