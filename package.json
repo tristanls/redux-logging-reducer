@@ -1,6 +1,6 @@
 {
   "name": "redux-logging-reducer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Logging reducer for Redux.",
   "main": "index.js",
   "contributors": [
