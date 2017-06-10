@@ -2,6 +2,8 @@
 
 Adds logging of dispatched actions to your reducer functionality storing dispatched actions in the reducer's store.
 
+NOTE: Since writing this module, I found it easier to test reducer and `redux-observable` epics separately using patterns described here: [Writing Epic Unit Tests](https://medium.com/kevin-salters-blog/writing-epic-unit-tests-bd85f05685b).
+
 ## Usage
 
 ```javascript
